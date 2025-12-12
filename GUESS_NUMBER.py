@@ -7,13 +7,14 @@ while True:
     if (userChoice == "Q"):
         break
     userChoice=int(userChoice)
-    if (userChoice==target):
+    if (userChoice == target):
         print("Success : correct Guess!")
         break
-    elif(userChoice<target):
+    elif(userChoice < target):
         print("your number was too small Guess bigger number")
     else:
          print("your number was too big Guess smaller number")
          
 print("---------GAME OVER----------")
+
         
